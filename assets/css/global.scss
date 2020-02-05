@@ -2,6 +2,7 @@
   font-family: header-text;
   src: url("../fonts/Hearth Stone.ttf");
 }
+
 @font-face {
   font-family: content-text;
   src: url("../fonts/BauerBodoniRegular.otf");
@@ -39,37 +40,36 @@
 }
 
 
-body.de{
-  background-color:#f8f4e1 ;
+body.de {
+  background-color: #f8f4e1;
   font-family: content-text;
   font-size: 1.4rem;
 
-  h2{
+  h2 {
     font-family: h2-text-italic;
     font-size: 3em;
   }
 
-  .form-check-label{
+  .form-check-label {
     font-size: 1em;
   }
 }
 
-body.ua{
-  background-color:#f8f4e1 ;
+body.ua {
+  background-color: #f8f4e1;
   font-family: "Lucida Grande";
   font-size: 1.4rem;
 
-  h2{
+  h2 {
     font-family: ukrainian;
     font-size: 3em;
   }
 
-  .form-check-label{
+  .form-check-label {
     font-size: 0.8em;
   }
 
 }
-
 
 
 .site-header {
@@ -94,39 +94,40 @@ body.ua{
   }
 }
 
-.lightgray{
-  background-color: rgba(207,207,207,0.18);
+.lightgray {
+  background-color: rgba(207, 207, 207, 0.18);
 }
 
 
+@media screen and (max-width: 375px) {
 
-
-
-@media screen and (max-width: 375px){
-
+  .timer-boxes {
     span.time {
       font-size: 0.7em;
     }
+  }
 
-  h2{
+  h2 {
     font-family: h2-text-italic;
     font-size: 2em;
   }
 
-  .logo{
+  .logo {
     height: 30px;
     z-index: 50;
+
     img {
-      height:40px;
+      height: 40px;
     }
   }
 
   .header-image {
-    height: 45vh;
+    height: 50vh;
     background: url('../images/mainimage_bearbeitet_ring_320w.png');
     background-repeat: no-repeat;
     background-position: center;
-    .header-text{
+
+    .header-text {
       font-size: 2em;
     }
   }
@@ -135,20 +136,23 @@ body.ua{
 @media screen and (max-width: 414px) {
 
 
+  .timer-boxes {
     span.time {
       font-size: 0.7em;
     }
+  }
 
 
   .logo {
     height: 40px;
   }
   .header-image {
-    height: 45vh;
+    height: 50vh;
     background: url('../images/mainimage_bearbeitet_ring_320w.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
+
     .header-text {
       margin: 0.5em;
       font-family: header-text;

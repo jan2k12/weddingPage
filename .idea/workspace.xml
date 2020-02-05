@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6eb7530-7e49-47b0-92a7-ff5afda073d7" name="Default Changelist" comment="" />
+    <list default="true" id="b6eb7530-7e49-47b0-92a7-ff5afda073d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Migrations/Version20200110210134.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Migrations/Version20200110210134.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/content/approach_de.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/content/approach_de.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/content/approach_ua.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/content/approach_ua.html.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +27,9 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -134,6 +144,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1W2IwTPxENbugDDS3BcWzELeZzZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -141,6 +152,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/content" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
@@ -203,7 +215,7 @@
       <workItem from="1580659583545" duration="743000" />
       <workItem from="1580848322318" duration="3650000" />
       <workItem from="1580852208180" duration="1962000" />
-      <workItem from="1580934709944" duration="4970000" />
+      <workItem from="1580934709944" duration="8761000" />
     </task>
     <servers />
   </component>
