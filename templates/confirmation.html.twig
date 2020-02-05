@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <br/>
+    <div class="d-flex justify-content-center flex-wrap">
+        <h2 class="mx-auto">{% trans %}Danke für die Rückmeldung{% endtrans %} </h2>
+    </div>
+    <br/>
+    <div class="d-flex justify-content-center flex-wrap">
+        {{ form(form) }}
+    </div>
+{% endblock %}

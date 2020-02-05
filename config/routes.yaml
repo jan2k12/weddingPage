@@ -1,0 +1,27 @@
+index:
+    path: /{_locale}
+    controller: App\Controller\DefaultController::index
+    requirements:
+        _locale: de|ua
+confirmation:
+    path: /{_locale}/confirmation
+    controller: App\Controller\DefaultController::confirmation
+    requirements:
+        _locale: de|ua
+tipps:
+    path: /{_locale}/tipps
+    controller: App\Controller\DefaultController::tipps
+    requirements:
+        _locale: de|ua
+contact:
+    path: /{_locale}/contact
+    controller: App\Controller\DefaultController::contact
+    requirements:
+        _locale: de|ua
+legacy_doc:
+    path: /
+    controller: Symfony\Bundle\FrameworkBundle\Controller\RedirectController
+    defaults:
+        # this value can be an absolute path or an absolute URL
+        path: /de
+        permanent: true

@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <div class="container pt-2">
+        <br/>
+        <div class="d-flex justify-content-center flex-wrap">
+            <h2 class="mx-auto">{% trans %}Additional Infos{% endtrans %}</h2>
+
+        </div>
+        <br/>
+        {% set locale=app.request.locale %}
+        {% include('content/info_'~locale~'.html.twig') %}
+    </div>
+{% endblock %}
