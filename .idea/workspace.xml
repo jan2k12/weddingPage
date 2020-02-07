@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6eb7530-7e49-47b0-92a7-ff5afda073d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Migrations/Version20200110210134.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Migrations/Version20200110210134.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/content/approach_de.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/content/approach_de.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/content/approach_ua.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/content/approach_ua.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/content/info_ua.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/content/info_ua.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +211,9 @@
       <workItem from="1580659583545" duration="743000" />
       <workItem from="1580848322318" duration="3650000" />
       <workItem from="1580852208180" duration="1962000" />
-      <workItem from="1580934709944" duration="8761000" />
+      <workItem from="1580934709944" duration="9111000" />
+      <workItem from="1581013490093" duration="38000" />
+      <workItem from="1581103648846" duration="2384000" />
     </task>
     <servers />
   </component>
@@ -271,10 +269,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="167" y="125" width="1653" height="855" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1579203202284" />
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1580934708728">
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1581013490256">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1580934708728" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1581013490256" />
     <state x="639" y="149" width="868" height="807" key="find.popup" timestamp="1580849860443">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

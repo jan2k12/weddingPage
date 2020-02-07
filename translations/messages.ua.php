@@ -28,7 +28,7 @@ return [
     "Childs till three"=>"Кількість дітей до 3 р.",
     "Childs four till nine" => "Кількість дітей 3-9 р.",
     "Childs ten till fifteen"=>"Кількість дітей 10-15 р.",
-    "OurWeddinTitle"=>"Wedding of Diana & Jan/08.08.2020/Baden-Baden",
+    "OurWeddinTitle"=>"Wedding of Diana&Jan/08.08.2020/Baden-Baden",
     "Sign in"=>"ОK",
     "Danke für die Rückmeldung"=>"Ми дякуємо",
     "Additional Infos"=>"Інформація"

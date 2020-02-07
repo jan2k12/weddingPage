@@ -26,7 +26,7 @@ return [
     "Childs till three"=>"Anzahl Kinder unter 3 Jahre",
     "Childs four till nine" => "Anzahl Kinder 3-9 Jahre",
     "Childs ten till fifteen"=>"Anzahl Kinder 10-15 Jahre",
-    "OurWeddinTitle"=>"Wedding of Diana & Jan/08.08.2020/Baden-Baden",
+    "OurWeddinTitle"=>"Wedding of Diana&Jan/08.08.2020/Baden-Baden",
     "Additional Infos"=>"Zusätzliche Informationen",
     "Danke für die Rückmeldung"=>"Wir danken für Eure Rückmeldung"
     ];
