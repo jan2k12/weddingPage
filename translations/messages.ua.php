@@ -23,7 +23,7 @@ return [
     "Save" => "Зберегти",
     "Please Login" => "Увійти",
     "Password" => "Пароль",
-    "LoginMsg"=>"Прізвище",
+    "LoginMsg"=>"Прізвище (укр)",
     "logout"=>"Вийти",
     "Childs till three"=>"Кількість дітей до 3 р.",
     "Childs four till nine" => "Кількість дітей 3-9 р.",
@@ -32,4 +32,6 @@ return [
     "Sign in"=>"ОK",
     "Danke für die Rückmeldung"=>"Ми дякуємо",
     "Additional Infos"=>"Інформація"
+
+
 ];
