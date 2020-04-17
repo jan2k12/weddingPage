@@ -117,9 +117,15 @@
     <hr/>
     <span name="approach" id="approach">&nbsp;</span>
     {% include('content/approach_'~locale~'.html.twig') %}
-
 {% endblock %}
-
+{% block footer %}
+    <div class="flex-row">
+        <div class="flex-column float-right">
+            <a  href="{{ path('impressum') }}">Impressumg</a> ||
+            <a  href="{{ path('datenschutz') }}">Datenschutz</a>
+        </div>
+    </div>
+{% endblock %}
 {% block javascripts %}
     {{ encore_entry_script_tags('app') }}
 {% endblock %}

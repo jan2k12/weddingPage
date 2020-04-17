@@ -5,6 +5,15 @@
         <h2 class="mx-auto">{% trans %}Danke für die Rückmeldung{% endtrans %} </h2>
     </div>
     <br/>
+    {% if success %}
+        <div class="d-flex justify-content-center flex-wrap">
+            <div class="alert alert-secondary justify-content-center text-center w-25">
+                {% trans %}dataSaved{% endtrans %}
+            </div>
+        </div>
+        <br/>
+    {% endif %}
+
     <div class="d-flex justify-content-center flex-wrap">
         {{ form(form) }}
     </div>

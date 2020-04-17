@@ -28,5 +28,8 @@ return [
     "Childs ten till fifteen"=>"Anzahl Kinder 10-15 Jahre",
     "OurWeddinTitle"=>"Wedding of Diana&Jan/08.08.2020/Baden-Baden",
     "Additional Infos"=>"Zusätzliche Informationen",
-    "Danke für die Rückmeldung"=>"Wir danken für Eure Rückmeldung"
+    "Danke für die Rückmeldung"=>"Wir danken für Eure Rückmeldung",
+    "KontaktMessage"=>"Gerne Helfen wir euch und unsere Trauzeugen euch weiter.",
+    "Kontakt"=>"Kontakt",
+    "dataSaved" => "Danke! Rückmeldung gespeichert."
     ];

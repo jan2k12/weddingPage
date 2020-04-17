@@ -15,4 +15,13 @@ window.$ = $;
 require('bootstrap');
 require('jquery-countdown');
 
-//console.log('Hello Webpack Encore! Edit me in assets/js/app.js');
+console.log('Hello Webpack Encore! Edit me in assets/js/app.js');
+
+$(document).ready(function () {
+    if($(".videoIframe").length > 0){
+       let windowSize=$(window).width();
+       if(windowSize<560){
+           $(".videoIframe").attr("width",(windowSize-50))
+       }
+    }
+})

@@ -57,6 +57,16 @@ class DefaultController extends AbstractController
         return $this->render('contact.html.twig');
     }
 
+    public function datenschutz()
+    {
+        return $this->render('datenschutz.html.twig');
+    }
+
+    public function impressum()
+    {
+        return $this->render('impressum.html.twig');
+    }
+
     public function adresses()
     {
         return $this->render('adresses.html.twig');

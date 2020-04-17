@@ -19,8 +19,8 @@ class GuestDataType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('confirmed',ChoiceType::class,['expanded'=>true,'multiple'=>false, 'choices'=>['Yes'=>true,'No'=>true],'required'=>true])
-            ->add('transport',ChoiceType::class,[ 'choices'=>['own'=>true,'Bus'=>true],'required'=>true] )
+            ->add('confirmed',ChoiceType::class,['expanded'=>true,'multiple'=>false, 'choices'=>['Yes'=>'1','No'=>'0'],'required'=>true])
+            ->add('transport',ChoiceType::class,[ 'choices'=>['own'=>'0','Bus'=>'1'],'required'=>true] )
             ->add('allergies', TextareaType::class,['required'=>false])
             ->add('guests', IntegerType::class, ['rounding_mode'=>IntegerToLocalizedStringTransformer::ROUND_UP,'required'=>true])
             ->add('childsTillThree', IntegerType::class,['rounding_mode'=>IntegerToLocalizedStringTransformer::ROUND_UP,'required'=>false])

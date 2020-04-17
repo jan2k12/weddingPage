@@ -1,6 +1,82 @@
 {% extends 'base.html.twig' %}
 {% block body %}
-    <br><div class="d-flex justify-content-center flex-wrap">
-        <h2 class="mx-auto">Kontakt</h2>
-    </div></br>
+    <br>
+    <div class="d-flex justify-content-center flex-wrap">
+        <h2 class="mx-auto">{% trans %}Kontakt{% endtrans %}</h2>
+    </div>
+    <br/>
+    {% set locale=app.request.locale %}
+    {% if app.request.locale=="ua" %}
+        <!---ukrainisch start -->
+        <div class="d-flex justify-content-center text-center flex-wrap">
+            Якщо є питання, звертайся до нас :).
+        </div>
+        <div class="d-flex justify-content-center text-center flex-wrap">
+            Як зазвичай по телефону або за нашими електронними адресами:
+        </div>
+        <br/>
+        <div class="d-flex justify-content-center flex-wrap"  style="font-size:0.9em">
+            jan.siegl[at]gmx.de<br/>
+        </div>
+        <div class="d-flex justify-content-center flex-wrap"  style="font-size:0.9em">
+            diana.dowhaljuk[at]gmail.com
+        </div>
+        <br/>
+        <div class="d-flex justify-content-center text-center flex-wrap">
+            <strong>Пропозиції? Ідеї? Сюрпризи?</strong>
+        </div>
+        <div class="d-flex justify-content-center text-center flex-wrap">
+            <br/>
+            Спитай нашу українську дружку, як це організувати:
+        </div>
+        <br/>
+        <div class="d-flex justify-content-center text-center flex-wrap font-weight-bold">
+            Наталія: nataliia11liia[at]gmail.com<br/>
+        </div>
+        <div class="d-flex justify-content-center text-center flex-wrap">
+            <img class="d-lg-inline" src="{{ asset('build/images/nathHandy.png') }}" />
+        </div>
+        <div class="d-flex justify-content-center text-center flex-wrap">
+            (також у WhatsApp)
+        </div>
+    {% else %}
+        <!--- deutsch start -->
+        <div class="d-flex justify-content-center text-center flex-wrap">
+            Bei Fragen meldet Euch einfach über:
+        </div>
+        <br/>
+        <div class="d-flex justify-content-center flex-wrap">
+            jan.siegl[at]gmx.de<br/>
+        </div>
+        <div class="d-flex justify-content-center flex-wrap" style="font-size:1.0em">
+            diana.dowhaljuk[at]gmail.com
+        </div>
+        <br/>
+        <div class="d-flex justify-content-center text-center flex-wrap">
+            <strong>Beiträge? Spiele? Überraschungen?</strong>
+        </div>
+        <div class="d-flex justify-content-center text-center flex-wrap">
+            <br/>
+            Unsere Trauzeugen helfen dabei gerne weiter:
+        </div>
+        <br/>
+
+        <div class="d-flex justify-content-center flex-wrap font-weight-bold" style="font-size: 1.1em">
+            Sebastian (Deutsch): seb.schillinger[at]gmail.com
+        </div>
+        <div class="d-flex justify-content-center flex-wrap">
+            <img class="d-lg-inline" src="{{ asset('build/images/sebHandy.png') }}" />
+        </div>
+        <br/>
+        <div class="d-flex justify-content-center text-center flex-wrap font-weight-bold" style="font-size: 1.1em">
+            Natalia (Deutsch, Ukrainisch): nataliia11liia[at]gmail.com<br/>
+        </div>
+        <div class="d-flex justify-content-center text-center flex-wrap">
+            <img class="d-lg-inline" src="{{ asset('build/images/nathHandy.png') }}" />
+        </div>
+        <div class="d-flex justify-content-center text-center flex-wrap">
+            (auch WhatsApp)
+        </div>
+    {% endif %}
+    <br/>
 {% endblock %}

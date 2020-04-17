@@ -18,6 +18,12 @@ contact:
     controller: App\Controller\DefaultController::contact
     requirements:
         _locale: de|ua
+impressum:
+    path: /impressum
+    controller: App\Controller\DefaultController::impressum
+datenschutz:
+    path: /datenschutz
+    controller: App\Controller\DefaultController::datenschutz
 legacy_doc:
     path: /
     controller: Symfony\Bundle\FrameworkBundle\Controller\RedirectController
